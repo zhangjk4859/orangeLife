@@ -12,7 +12,7 @@
 //按钮指示条
 @property(nonatomic,weak)UIView *indicatorView;
 //第一个按钮的标题宽度
-@property(nonatomic,weak)UIButton *firstBtn;
+@property(nonatomic,weak)UIButton *button;
 
 @end
 
@@ -27,7 +27,6 @@
     
     //2.设置导航栏颜色
     self.navigationController.navigationBar.barTintColor = JKNavBarColor;
-    self.navigationController.navigationBar.translucent = YES;
     
 }
 
@@ -40,7 +39,7 @@
     [self.view addSubview:titleView];
     titleView.backgroundColor = [UIColor cyanColor];
     
-    //2.添加指示条
+    //2. 添加指示条
     NSInteger font = 14;
     NSArray *titles = @[@"美食",@"新闻",@"金融",@"八卦"];
     //2.1 根据标题算出宽度
@@ -50,7 +49,7 @@
     CGFloat indicatorWidth = firstTilteSize.width;
     //2.2 创建指示器视图
     UIView *indicatorView = [[UIView alloc] init];
-    indicatorView.backgroundColor = [UIColor redColor];
+    indicatorView.backgroundColor = [UIColor orangeColor];
     indicatorView.size = CGSizeMake(indicatorWidth, 1);
     indicatorView.y = titleViewHeight - 1;
     indicatorView.centerX = JKScreenW / titles.count *0.5;
@@ -67,12 +66,16 @@
         btn.titleLabel.textColor = [UIColor blackColor];
         btn.titleLabel.font = [UIFont systemFontOfSize:font];
         [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        [btn setTitleColor:[UIColor orangeColor] forState:UIControlStateHighlighted];
+        [btn setTitleColor:[UIColor orangeColor] forState:UIControlStateDisabled];
         btn.x = i * btnWidth;
         btn.width = btnWidth;
         btn.height = titleViewHeight;
         [titleView addSubview:btn];
         [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+        //默认第一个按钮点击
+        if (i == 0) {
+            [self btnClick:btn];
+        }
     }
 
     
@@ -81,10 +84,20 @@
 //按钮点击事件
 -(void)btnClick:(UIButton *)btn
 {
-    //指示条跟按钮联动
+    //1.更换按钮的状态
+    self.button.enabled = YES;
+    self.button = btn;
+    btn.enabled = NO;
+    
+
+    //2.指示条跟按钮联动
     [UIView animateWithDuration:0.2 animations:^{
-        self.indicatorView.width =  btn.titleLabel.width;
-        self.indicatorView.x = btn.x + btn.titleLabel.x;
+       
+        //防止第一次默认点击指示条消失
+        if (btn.titleLabel.width > 0) {
+            self.indicatorView.width = btn.titleLabel.width;
+        }
+        self.indicatorView.centerX = btn.centerX;
     }];
     
 }
