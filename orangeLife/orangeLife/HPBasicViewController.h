@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HPBasicViewController.h
 //  orangeLife
 //
 //  Created by 张俊凯 on 16/7/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HPBasicViewController : UIViewController
 
 @end
-
