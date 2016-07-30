@@ -16,6 +16,10 @@
 		0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.m */; };
 		0A4815A11D4C538400B35AA2 /* HPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815A01D4C538400B35AA2 /* HPConst.m */; };
 		0A4815A51D4C544B00B35AA2 /* UIView+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815A41D4C544B00B35AA2 /* UIView+HPExtension.m */; };
+		0A4815AA1D4C8A2000B35AA2 /* HPFoodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815A91D4C8A2000B35AA2 /* HPFoodVC.m */; };
+		0A4815AD1D4C8A3800B35AA2 /* HPNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815AC1D4C8A3800B35AA2 /* HPNewsVC.m */; };
+		0A4815B01D4C8A8200B35AA2 /* HPFinanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815AF1D4C8A8200B35AA2 /* HPFinanceVC.m */; };
+		0A4815B31D4C8AA100B35AA2 /* HPGossipyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,14 @@
 		0A4815A31D4C544B00B35AA2 /* UIView+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HPExtension.h"; sourceTree = "<group>"; };
 		0A4815A41D4C544B00B35AA2 /* UIView+HPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HPExtension.m"; sourceTree = "<group>"; };
 		0A4815A61D4C54D700B35AA2 /* Prefix-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prefix-Header.h"; sourceTree = "<group>"; };
+		0A4815A81D4C8A2000B35AA2 /* HPFoodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFoodVC.h; sourceTree = "<group>"; };
+		0A4815A91D4C8A2000B35AA2 /* HPFoodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFoodVC.m; sourceTree = "<group>"; };
+		0A4815AB1D4C8A3800B35AA2 /* HPNewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsVC.h; sourceTree = "<group>"; };
+		0A4815AC1D4C8A3800B35AA2 /* HPNewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsVC.m; sourceTree = "<group>"; };
+		0A4815AE1D4C8A8200B35AA2 /* HPFinanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFinanceVC.h; sourceTree = "<group>"; };
+		0A4815AF1D4C8A8200B35AA2 /* HPFinanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFinanceVC.m; sourceTree = "<group>"; };
+		0A4815B11D4C8AA100B35AA2 /* HPGossipyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGossipyVC.h; sourceTree = "<group>"; };
+		0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGossipyVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +120,7 @@
 			children = (
 				0A4815A21D4C543400B35AA2 /* Category */,
 				0A48159E1D4C536400B35AA2 /* Tools */,
+				0A4815A71D4C89F200B35AA2 /* Controllers */,
 				0A48156B1D4C4BE100B35AA2 /* AppDelegate.h */,
 				0A48156C1D4C4BE100B35AA2 /* AppDelegate.m */,
 				0A48159B1D4C4D9000B35AA2 /* HPBasicViewController.h */,
@@ -163,6 +176,21 @@
 				0A4815A41D4C544B00B35AA2 /* UIView+HPExtension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		0A4815A71D4C89F200B35AA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A4815A81D4C8A2000B35AA2 /* HPFoodVC.h */,
+				0A4815A91D4C8A2000B35AA2 /* HPFoodVC.m */,
+				0A4815AB1D4C8A3800B35AA2 /* HPNewsVC.h */,
+				0A4815AC1D4C8A3800B35AA2 /* HPNewsVC.m */,
+				0A4815AE1D4C8A8200B35AA2 /* HPFinanceVC.h */,
+				0A4815AF1D4C8A8200B35AA2 /* HPFinanceVC.m */,
+				0A4815B11D4C8AA100B35AA2 /* HPGossipyVC.h */,
+				0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,11 +323,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4815AA1D4C8A2000B35AA2 /* HPFoodVC.m in Sources */,
 				0A4815A51D4C544B00B35AA2 /* UIView+HPExtension.m in Sources */,
 				0A48156D1D4C4BE100B35AA2 /* AppDelegate.m in Sources */,
 				0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.m in Sources */,
 				0A48156A1D4C4BE100B35AA2 /* main.m in Sources */,
+				0A4815B01D4C8A8200B35AA2 /* HPFinanceVC.m in Sources */,
+				0A4815AD1D4C8A3800B35AA2 /* HPNewsVC.m in Sources */,
 				0A4815A11D4C538400B35AA2 /* HPConst.m in Sources */,
+				0A4815B31D4C8AA100B35AA2 /* HPGossipyVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,6 +19,9 @@
 #define JKLog(...)
 #endif
 
+//打印函数
+#define JKLogFunc JKLog(@"%s",__func__)
+
 //统一导航栏颜色，橘黄色
 #define JKNavBarColor [UIColor colorWithRed:0.986 green:0.289 blue:0.017 alpha:1.000]
 
