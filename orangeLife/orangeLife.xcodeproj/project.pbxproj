@@ -20,6 +20,10 @@
 		0A4815AD1D4C8A3800B35AA2 /* HPNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815AC1D4C8A3800B35AA2 /* HPNewsVC.m */; };
 		0A4815B01D4C8A8200B35AA2 /* HPFinanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815AF1D4C8A8200B35AA2 /* HPFinanceVC.m */; };
 		0A4815B31D4C8AA100B35AA2 /* HPGossipyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */; };
+		0AC1F26C1D4E2C97004A5AFC /* H5Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AC1F2681D4E2C97004A5AFC /* H5Service.bundle */; };
+		0AC1F26D1D4E2C97004A5AFC /* Poseidon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AC1F2691D4E2C97004A5AFC /* Poseidon.bundle */; };
+		0AC1F26E1D4E2C97004A5AFC /* ZMCreditSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC1F26A1D4E2C97004A5AFC /* ZMCreditSDK.framework */; };
+		0AC1F26F1D4E2C97004A5AFC /* ZMDependUponSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC1F26B1D4E2C97004A5AFC /* ZMDependUponSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		0A4815AF1D4C8A8200B35AA2 /* HPFinanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFinanceVC.m; sourceTree = "<group>"; };
 		0A4815B11D4C8AA100B35AA2 /* HPGossipyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGossipyVC.h; sourceTree = "<group>"; };
 		0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGossipyVC.m; sourceTree = "<group>"; };
+		0AC1F2681D4E2C97004A5AFC /* H5Service.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = H5Service.bundle; sourceTree = "<group>"; };
+		0AC1F2691D4E2C97004A5AFC /* Poseidon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Poseidon.bundle; sourceTree = "<group>"; };
+		0AC1F26A1D4E2C97004A5AFC /* ZMCreditSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZMCreditSDK.framework; sourceTree = "<group>"; };
+		0AC1F26B1D4E2C97004A5AFC /* ZMDependUponSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZMDependUponSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC1F26F1D4E2C97004A5AFC /* ZMDependUponSDK.framework in Frameworks */,
+				0AC1F26E1D4E2C97004A5AFC /* ZMCreditSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +128,7 @@
 		0A4815671D4C4BE100B35AA2 /* orangeLife */ = {
 			isa = PBXGroup;
 			children = (
+				0AC1F2671D4E296A004A5AFC /* 芝麻信用 */,
 				0A4815A21D4C543400B35AA2 /* Category */,
 				0A48159E1D4C536400B35AA2 /* Tools */,
 				0A4815A71D4C89F200B35AA2 /* Controllers */,
@@ -191,6 +202,17 @@
 				0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0AC1F2671D4E296A004A5AFC /* 芝麻信用 */ = {
+			isa = PBXGroup;
+			children = (
+				0AC1F2681D4E2C97004A5AFC /* H5Service.bundle */,
+				0AC1F2691D4E2C97004A5AFC /* Poseidon.bundle */,
+				0AC1F26A1D4E2C97004A5AFC /* ZMCreditSDK.framework */,
+				0AC1F26B1D4E2C97004A5AFC /* ZMDependUponSDK.framework */,
+			);
+			path = "芝麻信用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +319,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC1F26D1D4E2C97004A5AFC /* Poseidon.bundle in Resources */,
 				0A4815781D4C4BE100B35AA2 /* LaunchScreen.storyboard in Resources */,
 				0A4815751D4C4BE100B35AA2 /* Assets.xcassets in Resources */,
+				0AC1F26C1D4E2C97004A5AFC /* H5Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +488,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/orangeLife/芝麻信用",
+				);
 				GCC_PREFIX_HEADER = "$SRCROOT/orangeLife/Prefix-Header.h";
 				INFOPLIST_FILE = orangeLife/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -478,6 +506,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/orangeLife/芝麻信用",
+				);
 				GCC_PREFIX_HEADER = "$SRCROOT/orangeLife/Prefix-Header.h";
 				INFOPLIST_FILE = orangeLife/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

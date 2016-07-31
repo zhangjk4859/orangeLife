@@ -14,7 +14,10 @@
 #import "HPFinanceVC.h"
 #import "HPGossipyVC.h"
 
-//常量，只读
+//引入芝麻信用
+#import <ZMCreditSDK/ALCreditService.h>
+
+//常量，只读,tag标识
 NSUInteger const basicTag = 100;
 
 @interface HPBasicViewController ()<UIScrollViewDelegate>

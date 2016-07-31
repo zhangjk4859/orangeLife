@@ -7,6 +7,10 @@
 //
 
 #import "HPFoodVC.h"
+@interface HPFoodVC()<UITableViewDataSource>
+
+@end
+
 
 @implementation HPFoodVC
 
@@ -14,6 +18,31 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = JKRandomColor;
+    
+    [self setupTableView];
+}
+
+
+-(void)setupTableView
+{
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    [self.view addSubview:tableView];
+    tableView.dataSource = self;
+    
+}
+
+#pragma mark tableViewDatasource
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 100;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    return cell;
 }
 
 @end
