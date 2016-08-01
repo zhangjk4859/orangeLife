@@ -34,5 +34,8 @@
 #define  JKScreenW  [UIScreen mainScreen].bounds.size.width
 #define  JKScreenH  [UIScreen mainScreen].bounds.size.height
 
+//定义网络请求超时时间
+#define JKTimeoutInterval 20.0
+
 
 #endif /* Prefix_Header_h */

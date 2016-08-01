@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A020C971D4F190D00458BA3 /* HPFinanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C901D4F190D00458BA3 /* HPFinanceVC.m */; };
+		0A020C981D4F190D00458BA3 /* HPFoodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C921D4F190D00458BA3 /* HPFoodVC.m */; };
+		0A020C991D4F190D00458BA3 /* HPGossipyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C941D4F190D00458BA3 /* HPGossipyVC.m */; };
+		0A020C9A1D4F190D00458BA3 /* HPNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C961D4F190D00458BA3 /* HPNewsVC.m */; };
+		0A020CA01D4F2CEA00458BA3 /* HPHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C9F1D4F2CEA00458BA3 /* HPHttpManager.m */; };
+		0A020CA21D4F378600458BA3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CA11D4F378600458BA3 /* MobileCoreServices.framework */; };
+		0A020CA41D4F379600458BA3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CA31D4F379600458BA3 /* CFNetwork.framework */; };
+		0A020CA61D4F37A500458BA3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CA51D4F37A500458BA3 /* MessageUI.framework */; };
+		0A020CA81D4F37D100458BA3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CA71D4F37D100458BA3 /* EventKit.framework */; };
+		0A020CAA1D4F380800458BA3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CA91D4F380800458BA3 /* AssetsLibrary.framework */; };
+		0A020CAC1D4F381200458BA3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CAB1D4F381200458BA3 /* CoreMotion.framework */; };
+		0A020CAE1D4F382600458BA3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CAD1D4F382600458BA3 /* libz.tbd */; };
+		0A020CB01D4F383200458BA3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CAF1D4F383200458BA3 /* SystemConfiguration.framework */; };
+		0A020CB21D4F384300458BA3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CB11D4F384300458BA3 /* CoreTelephony.framework */; };
+		0A020CC31D4F408200458BA3 /* H5Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A020CC21D4F408200458BA3 /* H5Service.bundle */; };
+		0A020CC51D4F408A00458BA3 /* Poseidon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A020CC41D4F408A00458BA3 /* Poseidon.bundle */; };
+		0A020CC71D4F40A300458BA3 /* ZMCreditSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CC61D4F40A300458BA3 /* ZMCreditSDK.framework */; };
+		0A020CC91D4F40AD00458BA3 /* ZMDependUponSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CC81D4F40AD00458BA3 /* ZMDependUponSDK.framework */; };
+		0A020CCB1D4F416500458BA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CCA1D4F416500458BA3 /* Security.framework */; };
 		0A48156A1D4C4BE100B35AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815691D4C4BE100B35AA2 /* main.m */; };
 		0A48156D1D4C4BE100B35AA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48156C1D4C4BE100B35AA2 /* AppDelegate.m */; };
 		0A4815751D4C4BE100B35AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4815741D4C4BE100B35AA2 /* Assets.xcassets */; };
 		0A4815781D4C4BE100B35AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4815761D4C4BE100B35AA2 /* LaunchScreen.storyboard */; };
 		0A4815831D4C4BE100B35AA2 /* orangeLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815821D4C4BE100B35AA2 /* orangeLifeTests.m */; };
 		0A48158E1D4C4BE100B35AA2 /* orangeLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48158D1D4C4BE100B35AA2 /* orangeLifeUITests.m */; };
-		0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.m */; };
+		0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.mm */; };
 		0A4815A11D4C538400B35AA2 /* HPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815A01D4C538400B35AA2 /* HPConst.m */; };
 		0A4815A51D4C544B00B35AA2 /* UIView+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815A41D4C544B00B35AA2 /* UIView+HPExtension.m */; };
-		0A4815AA1D4C8A2000B35AA2 /* HPFoodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815A91D4C8A2000B35AA2 /* HPFoodVC.m */; };
-		0A4815AD1D4C8A3800B35AA2 /* HPNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815AC1D4C8A3800B35AA2 /* HPNewsVC.m */; };
-		0A4815B01D4C8A8200B35AA2 /* HPFinanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815AF1D4C8A8200B35AA2 /* HPFinanceVC.m */; };
-		0A4815B31D4C8AA100B35AA2 /* HPGossipyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */; };
-		0AC1F26C1D4E2C97004A5AFC /* H5Service.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AC1F2681D4E2C97004A5AFC /* H5Service.bundle */; };
-		0AC1F26D1D4E2C97004A5AFC /* Poseidon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AC1F2691D4E2C97004A5AFC /* Poseidon.bundle */; };
-		0AC1F26E1D4E2C97004A5AFC /* ZMCreditSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC1F26A1D4E2C97004A5AFC /* ZMCreditSDK.framework */; };
-		0AC1F26F1D4E2C97004A5AFC /* ZMDependUponSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC1F26B1D4E2C97004A5AFC /* ZMDependUponSDK.framework */; };
+		0F7B1C56A9718E1BFA62BCF6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F4FB3B9460EDBFA614009D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A020C8F1D4F190D00458BA3 /* HPFinanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFinanceVC.h; sourceTree = "<group>"; };
+		0A020C901D4F190D00458BA3 /* HPFinanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFinanceVC.m; sourceTree = "<group>"; };
+		0A020C911D4F190D00458BA3 /* HPFoodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFoodVC.h; sourceTree = "<group>"; };
+		0A020C921D4F190D00458BA3 /* HPFoodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFoodVC.m; sourceTree = "<group>"; };
+		0A020C931D4F190D00458BA3 /* HPGossipyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGossipyVC.h; sourceTree = "<group>"; };
+		0A020C941D4F190D00458BA3 /* HPGossipyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGossipyVC.m; sourceTree = "<group>"; };
+		0A020C951D4F190D00458BA3 /* HPNewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsVC.h; sourceTree = "<group>"; };
+		0A020C961D4F190D00458BA3 /* HPNewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsVC.m; sourceTree = "<group>"; };
+		0A020C9E1D4F2CEA00458BA3 /* HPHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPHttpManager.h; sourceTree = "<group>"; };
+		0A020C9F1D4F2CEA00458BA3 /* HPHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPHttpManager.m; sourceTree = "<group>"; };
+		0A020CA11D4F378600458BA3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0A020CA31D4F379600458BA3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0A020CA51D4F37A500458BA3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0A020CA71D4F37D100458BA3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		0A020CA91D4F380800458BA3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0A020CAB1D4F381200458BA3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0A020CAD1D4F382600458BA3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0A020CAF1D4F383200458BA3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A020CB11D4F384300458BA3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0A020CC21D4F408200458BA3 /* H5Service.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = H5Service.bundle; sourceTree = "<group>"; };
+		0A020CC41D4F408A00458BA3 /* Poseidon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Poseidon.bundle; sourceTree = "<group>"; };
+		0A020CC61D4F40A300458BA3 /* ZMCreditSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZMCreditSDK.framework; sourceTree = "<group>"; };
+		0A020CC81D4F40AD00458BA3 /* ZMDependUponSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZMDependUponSDK.framework; sourceTree = "<group>"; };
+		0A020CCA1D4F416500458BA3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0A4815651D4C4BE100B35AA2 /* orangeLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orangeLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4815691D4C4BE100B35AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A48156B1D4C4BE100B35AA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,24 +94,15 @@
 		0A48158D1D4C4BE100B35AA2 /* orangeLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = orangeLifeUITests.m; sourceTree = "<group>"; };
 		0A48158F1D4C4BE200B35AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A48159B1D4C4D9000B35AA2 /* HPBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPBasicViewController.h; sourceTree = "<group>"; };
-		0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPBasicViewController.m; sourceTree = "<group>"; };
+		0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HPBasicViewController.mm; sourceTree = "<group>"; };
 		0A48159F1D4C538400B35AA2 /* HPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPConst.h; sourceTree = "<group>"; };
 		0A4815A01D4C538400B35AA2 /* HPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPConst.m; sourceTree = "<group>"; };
 		0A4815A31D4C544B00B35AA2 /* UIView+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HPExtension.h"; sourceTree = "<group>"; };
 		0A4815A41D4C544B00B35AA2 /* UIView+HPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HPExtension.m"; sourceTree = "<group>"; };
 		0A4815A61D4C54D700B35AA2 /* Prefix-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prefix-Header.h"; sourceTree = "<group>"; };
-		0A4815A81D4C8A2000B35AA2 /* HPFoodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFoodVC.h; sourceTree = "<group>"; };
-		0A4815A91D4C8A2000B35AA2 /* HPFoodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFoodVC.m; sourceTree = "<group>"; };
-		0A4815AB1D4C8A3800B35AA2 /* HPNewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsVC.h; sourceTree = "<group>"; };
-		0A4815AC1D4C8A3800B35AA2 /* HPNewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsVC.m; sourceTree = "<group>"; };
-		0A4815AE1D4C8A8200B35AA2 /* HPFinanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFinanceVC.h; sourceTree = "<group>"; };
-		0A4815AF1D4C8A8200B35AA2 /* HPFinanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFinanceVC.m; sourceTree = "<group>"; };
-		0A4815B11D4C8AA100B35AA2 /* HPGossipyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGossipyVC.h; sourceTree = "<group>"; };
-		0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGossipyVC.m; sourceTree = "<group>"; };
-		0AC1F2681D4E2C97004A5AFC /* H5Service.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = H5Service.bundle; sourceTree = "<group>"; };
-		0AC1F2691D4E2C97004A5AFC /* Poseidon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Poseidon.bundle; sourceTree = "<group>"; };
-		0AC1F26A1D4E2C97004A5AFC /* ZMCreditSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZMCreditSDK.framework; sourceTree = "<group>"; };
-		0AC1F26B1D4E2C97004A5AFC /* ZMDependUponSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZMDependUponSDK.framework; sourceTree = "<group>"; };
+		18810DF49973A73CE918D0E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		93850DD3917DBBCCA06E5392 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A7F4FB3B9460EDBFA614009D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +110,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC1F26F1D4E2C97004A5AFC /* ZMDependUponSDK.framework in Frameworks */,
-				0AC1F26E1D4E2C97004A5AFC /* ZMCreditSDK.framework in Frameworks */,
+				0A020CCB1D4F416500458BA3 /* Security.framework in Frameworks */,
+				0A020CB21D4F384300458BA3 /* CoreTelephony.framework in Frameworks */,
+				0A020CB01D4F383200458BA3 /* SystemConfiguration.framework in Frameworks */,
+				0A020CAE1D4F382600458BA3 /* libz.tbd in Frameworks */,
+				0A020CAC1D4F381200458BA3 /* CoreMotion.framework in Frameworks */,
+				0A020CC91D4F40AD00458BA3 /* ZMDependUponSDK.framework in Frameworks */,
+				0A020CC71D4F40A300458BA3 /* ZMCreditSDK.framework in Frameworks */,
+				0A020CAA1D4F380800458BA3 /* AssetsLibrary.framework in Frameworks */,
+				0A020CA81D4F37D100458BA3 /* EventKit.framework in Frameworks */,
+				0A020CA61D4F37A500458BA3 /* MessageUI.framework in Frameworks */,
+				0A020CA41D4F379600458BA3 /* CFNetwork.framework in Frameworks */,
+				0A020CA21D4F378600458BA3 /* MobileCoreServices.framework in Frameworks */,
+				0F7B1C56A9718E1BFA62BCF6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +143,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A020C8D1D4EF07A00458BA3 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				0A48159B1D4C4D9000B35AA2 /* HPBasicViewController.h */,
+				0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.mm */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		0A020C8E1D4F190D00458BA3 /* SubControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A020C951D4F190D00458BA3 /* HPNewsVC.h */,
+				0A020C961D4F190D00458BA3 /* HPNewsVC.m */,
+				0A020C8F1D4F190D00458BA3 /* HPFinanceVC.h */,
+				0A020C901D4F190D00458BA3 /* HPFinanceVC.m */,
+				0A020C911D4F190D00458BA3 /* HPFoodVC.h */,
+				0A020C921D4F190D00458BA3 /* HPFoodVC.m */,
+				0A020C931D4F190D00458BA3 /* HPGossipyVC.h */,
+				0A020C941D4F190D00458BA3 /* HPGossipyVC.m */,
+			);
+			path = SubControllers;
+			sourceTree = "<group>";
+		};
+		0A020C9D1D4F193800458BA3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A48156B1D4C4BE100B35AA2 /* AppDelegate.h */,
+				0A48156C1D4C4BE100B35AA2 /* AppDelegate.m */,
+				0A4815A61D4C54D700B35AA2 /* Prefix-Header.h */,
+				0A4815741D4C4BE100B35AA2 /* Assets.xcassets */,
+				0A4815761D4C4BE100B35AA2 /* LaunchScreen.storyboard */,
+				0A4815791D4C4BE100B35AA2 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		0A020CB51D4F3AD800458BA3 /* Seasame */ = {
+			isa = PBXGroup;
+			children = (
+				0A020CC41D4F408A00458BA3 /* Poseidon.bundle */,
+				0A020CC21D4F408200458BA3 /* H5Service.bundle */,
+			);
+			path = Seasame;
+			sourceTree = "<group>";
+		};
 		0A48155C1D4C4BE100B35AA2 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +196,8 @@
 				0A4815811D4C4BE100B35AA2 /* orangeLifeTests */,
 				0A48158C1D4C4BE100B35AA2 /* orangeLifeUITests */,
 				0A4815661D4C4BE100B35AA2 /* Products */,
+				1FAA91583AA7CBA3B2593E4C /* Pods */,
+				7B1DAB5ECEC8729EE02F2E17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,18 +214,12 @@
 		0A4815671D4C4BE100B35AA2 /* orangeLife */ = {
 			isa = PBXGroup;
 			children = (
-				0AC1F2671D4E296A004A5AFC /* 芝麻信用 */,
+				0A020CB51D4F3AD800458BA3 /* Seasame */,
+				0A020C9D1D4F193800458BA3 /* Other */,
+				0A020C8E1D4F190D00458BA3 /* SubControllers */,
+				0A020C8D1D4EF07A00458BA3 /* MainController */,
 				0A4815A21D4C543400B35AA2 /* Category */,
 				0A48159E1D4C536400B35AA2 /* Tools */,
-				0A4815A71D4C89F200B35AA2 /* Controllers */,
-				0A48156B1D4C4BE100B35AA2 /* AppDelegate.h */,
-				0A48156C1D4C4BE100B35AA2 /* AppDelegate.m */,
-				0A48159B1D4C4D9000B35AA2 /* HPBasicViewController.h */,
-				0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.m */,
-				0A4815A61D4C54D700B35AA2 /* Prefix-Header.h */,
-				0A4815741D4C4BE100B35AA2 /* Assets.xcassets */,
-				0A4815761D4C4BE100B35AA2 /* LaunchScreen.storyboard */,
-				0A4815791D4C4BE100B35AA2 /* Info.plist */,
 				0A4815681D4C4BE100B35AA2 /* Supporting Files */,
 			);
 			path = orangeLife;
@@ -176,6 +256,8 @@
 			children = (
 				0A48159F1D4C538400B35AA2 /* HPConst.h */,
 				0A4815A01D4C538400B35AA2 /* HPConst.m */,
+				0A020C9E1D4F2CEA00458BA3 /* HPHttpManager.h */,
+				0A020C9F1D4F2CEA00458BA3 /* HPHttpManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -189,30 +271,33 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		0A4815A71D4C89F200B35AA2 /* Controllers */ = {
+		1FAA91583AA7CBA3B2593E4C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A4815A81D4C8A2000B35AA2 /* HPFoodVC.h */,
-				0A4815A91D4C8A2000B35AA2 /* HPFoodVC.m */,
-				0A4815AB1D4C8A3800B35AA2 /* HPNewsVC.h */,
-				0A4815AC1D4C8A3800B35AA2 /* HPNewsVC.m */,
-				0A4815AE1D4C8A8200B35AA2 /* HPFinanceVC.h */,
-				0A4815AF1D4C8A8200B35AA2 /* HPFinanceVC.m */,
-				0A4815B11D4C8AA100B35AA2 /* HPGossipyVC.h */,
-				0A4815B21D4C8AA100B35AA2 /* HPGossipyVC.m */,
+				93850DD3917DBBCCA06E5392 /* Pods.debug.xcconfig */,
+				18810DF49973A73CE918D0E0 /* Pods.release.xcconfig */,
 			);
-			path = Controllers;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		0AC1F2671D4E296A004A5AFC /* 芝麻信用 */ = {
+		7B1DAB5ECEC8729EE02F2E17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0AC1F2681D4E2C97004A5AFC /* H5Service.bundle */,
-				0AC1F2691D4E2C97004A5AFC /* Poseidon.bundle */,
-				0AC1F26A1D4E2C97004A5AFC /* ZMCreditSDK.framework */,
-				0AC1F26B1D4E2C97004A5AFC /* ZMDependUponSDK.framework */,
+				0A020CCA1D4F416500458BA3 /* Security.framework */,
+				0A020CC81D4F40AD00458BA3 /* ZMDependUponSDK.framework */,
+				0A020CC61D4F40A300458BA3 /* ZMCreditSDK.framework */,
+				0A020CB11D4F384300458BA3 /* CoreTelephony.framework */,
+				0A020CAF1D4F383200458BA3 /* SystemConfiguration.framework */,
+				0A020CAD1D4F382600458BA3 /* libz.tbd */,
+				0A020CAB1D4F381200458BA3 /* CoreMotion.framework */,
+				0A020CA91D4F380800458BA3 /* AssetsLibrary.framework */,
+				0A020CA71D4F37D100458BA3 /* EventKit.framework */,
+				0A020CA51D4F37A500458BA3 /* MessageUI.framework */,
+				0A020CA31D4F379600458BA3 /* CFNetwork.framework */,
+				0A020CA11D4F378600458BA3 /* MobileCoreServices.framework */,
+				A7F4FB3B9460EDBFA614009D /* libPods.a */,
 			);
-			path = "芝麻信用";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A4815921D4C4BE200B35AA2 /* Build configuration list for PBXNativeTarget "orangeLife" */;
 			buildPhases = (
+				FD5AF604983492B4B4554777 /* Check Pods Manifest.lock */,
 				0A4815611D4C4BE100B35AA2 /* Sources */,
 				0A4815621D4C4BE100B35AA2 /* Frameworks */,
 				0A4815631D4C4BE100B35AA2 /* Resources */,
+				D74580DA4328C8BBF84F5AA6 /* Embed Pods Frameworks */,
+				3D5108D749E2FF018CE08254 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,10 +407,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC1F26D1D4E2C97004A5AFC /* Poseidon.bundle in Resources */,
+				0A020CC51D4F408A00458BA3 /* Poseidon.bundle in Resources */,
 				0A4815781D4C4BE100B35AA2 /* LaunchScreen.storyboard in Resources */,
 				0A4815751D4C4BE100B35AA2 /* Assets.xcassets in Resources */,
-				0AC1F26C1D4E2C97004A5AFC /* H5Service.bundle in Resources */,
+				0A020CC31D4F408200458BA3 /* H5Service.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,20 +430,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D5108D749E2FF018CE08254 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74580DA4328C8BBF84F5AA6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5AF604983492B4B4554777 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A4815611D4C4BE100B35AA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A4815AA1D4C8A2000B35AA2 /* HPFoodVC.m in Sources */,
 				0A4815A51D4C544B00B35AA2 /* UIView+HPExtension.m in Sources */,
 				0A48156D1D4C4BE100B35AA2 /* AppDelegate.m in Sources */,
-				0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.m in Sources */,
+				0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.mm in Sources */,
+				0A020C981D4F190D00458BA3 /* HPFoodVC.m in Sources */,
 				0A48156A1D4C4BE100B35AA2 /* main.m in Sources */,
-				0A4815B01D4C8A8200B35AA2 /* HPFinanceVC.m in Sources */,
-				0A4815AD1D4C8A3800B35AA2 /* HPNewsVC.m in Sources */,
 				0A4815A11D4C538400B35AA2 /* HPConst.m in Sources */,
-				0A4815B31D4C8AA100B35AA2 /* HPGossipyVC.m in Sources */,
+				0A020C971D4F190D00458BA3 /* HPFinanceVC.m in Sources */,
+				0A020C991D4F190D00458BA3 /* HPGossipyVC.m in Sources */,
+				0A020C9A1D4F190D00458BA3 /* HPNewsVC.m in Sources */,
+				0A020CA01D4F2CEA00458BA3 /* HPHttpManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,11 +623,14 @@
 		};
 		0A4815931D4C4BE200B35AA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93850DD3917DBBCCA06E5392 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/orangeLife/芝麻信用",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = "$SRCROOT/orangeLife/Prefix-Header.h";
 				INFOPLIST_FILE = orangeLife/Info.plist;
@@ -504,11 +644,14 @@
 		};
 		0A4815941D4C4BE200B35AA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18810DF49973A73CE918D0E0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/orangeLife/芝麻信用",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = "$SRCROOT/orangeLife/Prefix-Header.h";
 				INFOPLIST_FILE = orangeLife/Info.plist;

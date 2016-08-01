@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7BCCAAFEABD3BE6B179EC5D39A726784E8D3E4B5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "97c80855-ce70-4e00-bceb-77253cd92ba5++228" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "97c80855-ce70-4e00-bceb-77253cd92ba5++228" : 0,
+    "7BCCAAFEABD3BE6B179EC5D39A726784E8D3E4B5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "438A4CBC-9027-4964-AF73-13B1032B4A65",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "97c80855-ce70-4e00-bceb-77253cd92ba5++228" : "orangeLife\/orangeLife\/orangeLife\/%E8%8A%9D%E9%BA%BB%E4%BF%A1%E7%94%A8\/H5Service.bundle\/",
+    "7BCCAAFEABD3BE6B179EC5D39A726784E8D3E4B5" : "orangeLife\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "orangeLife",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "orangeLife\/orangeLife.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhangjk4859\/orangeLife.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BCCAAFEABD3BE6B179EC5D39A726784E8D3E4B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/diqun.dq@svnhz.alipay.net\/svn\/zmsdk",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97c80855-ce70-4e00-bceb-77253cd92ba5++228"
+    }
+  ]
+}
