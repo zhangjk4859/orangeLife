@@ -11,6 +11,7 @@
 
 #import "HPConst.h"
 #import "UIView+HPExtension.h"
+#import "HPHttpManager.h"
 
 //调试状态打印日志
 #ifdef DEBUG
@@ -19,6 +20,8 @@
 #define JKLog(...)
 #endif
 
+#define APPID @"22699"
+#define APPKEY @"3de6465827e545849c4e7db29147ec13"
 //打印函数
 #define JKLogFunc JKLog(@"%s",__func__)
 
