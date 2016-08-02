@@ -12,6 +12,11 @@
 #import "HPConst.h"
 #import "UIView+HPExtension.h"
 #import "HPHttpManager.h"
+#import "HPNewsDetailVC.h"
+#import "HPUtils.h"
+#import "SVProgressHUD.h"
+#import "MJExtension.h"
+
 
 //调试状态打印日志
 #ifdef DEBUG
@@ -20,10 +25,12 @@
 #define JKLog(...)
 #endif
 
-#define APPID @"22699"
-#define APPKEY @"3de6465827e545849c4e7db29147ec13"
+#define APPID @"22739"
+#define APPKEY @"3dc1f4f867584fab85a28d9b0462bd98"
 //打印函数
 #define JKLogFunc JKLog(@"%s",__func__)
+//打印frame
+#define JKLogFrame(...) JKLog(@"%@",NSStringFromCGRect(__VA_ARGS__))
 
 //统一导航栏颜色，橘黄色
 #define JKNavBarColor [UIColor colorWithRed:0.986 green:0.289 blue:0.017 alpha:1.000]

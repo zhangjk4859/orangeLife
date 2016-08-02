@@ -43,6 +43,20 @@ typedef void(^HttpRequestFailureBlock)(NSError *error);
                        params:(NSDictionary *)params
                       success:(HttpRequestSuccessBlock)success
                       failure:(HttpRequestFailureBlock)failure;
+/**
+ *  GET请求
+ *
+ *  @param baseUrlStr 基准url
+ *  @param urlStr     后缀urlstr
+ *  @param params     参数
+ *  @param success    成功回调block
+ *  @param failure    失败回调block
+ */
+- (void)getReqWithBaseUrlStr:(NSString *)baseUrlStr
+                 surfixUrlStr:(NSString *)surfixUrlStr
+                       params:(NSDictionary *)params
+                      success:(HttpRequestSuccessBlock)success
+                      failure:(HttpRequestFailureBlock)failure;
 
 
 @end

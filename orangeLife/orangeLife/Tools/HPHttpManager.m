@@ -109,6 +109,11 @@ static HPHttpManager *_instance;
     [self requestWithMethod:@"POST" baseUrlStr:baseUrlStr surfixUrlStr:surfixUrlStr params:params success:success failure:failure];
 }
 
+#pragma mark get请求
+-(void)getReqWithBaseUrlStr:(NSString *)baseUrlStr surfixUrlStr:(NSString *)surfixUrlStr params:(NSDictionary *)params success:(HttpRequestSuccessBlock)success failure:(HttpRequestFailureBlock)failure
+{
+    [self requestWithMethod:@"GET" baseUrlStr:baseUrlStr surfixUrlStr:surfixUrlStr params:params success:success failure:failure];
+}
 
 
 @end
