@@ -70,7 +70,6 @@
         
         
         
-        
     } failure:^(NSError *error) {
         
         JKLog(@"----返回错误-----%@",error);
