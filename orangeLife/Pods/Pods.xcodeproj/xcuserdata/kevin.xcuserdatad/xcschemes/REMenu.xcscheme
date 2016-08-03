@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '57E8D9212D1189281D5E2617'
-               BlueprintName = 'MJExtension'
+               BlueprintIdentifier = 'DF3C34822F46353BE4E15F5B'
+               BlueprintName = 'REMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMJExtension.a'>
+               BuildableName = 'libREMenu.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
