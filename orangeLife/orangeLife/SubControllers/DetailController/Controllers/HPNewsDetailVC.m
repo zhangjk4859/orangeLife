@@ -9,7 +9,9 @@
 #import "HPNewsDetailVC.h"
 #import "HPNews.h"
 #import "HPWebViewVC.h"
+#import "HPNewsDetailCell.h"
 
+NSString static * const reuseID = @"cell";
 
 @interface HPNewsDetailVC ()
 /**
@@ -32,6 +34,9 @@
     self.currentPage = 1;
     //1.加载数据
     [self loadData];
+    
+    //2.注册cell
+    [self.tableView registerClass:[HPNewsDetailCell class] forCellReuseIdentifier:reuseID];
 
 }
 
@@ -56,6 +61,7 @@
         if (code == 0) {//返回成功，加载数据
             [SVProgressHUD dismiss];
             self.newsArray = [HPNews mj_objectArrayWithKeyValuesArray:responseObject[@"showapi_res_body"][@"pagebean"][@"contentlist"]];
+            JKLog(@"%@",responseObject[@"showapi_res_body"][@"pagebean"][@"contentlist"]);
             
             self.currentPage = [responseObject[@"showapi_res_body"][@"pagebean"][@"currentPage"] integerValue];
             [self.tableView reloadData];
@@ -73,6 +79,7 @@
     } failure:^(NSError *error) {
         
         JKLog(@"----返回错误-----%@",error);
+        [SVProgressHUD showErrorWithStatus:@"网络连接错误，请检查网络"];
         
     }];
     
@@ -89,11 +96,8 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     HPNews *news =  self.newsArray[indexPath.row];
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-        
-    }
+    HPNewsDetailCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseID forIndexPath:indexPath];
+   
     cell.textLabel.text = news.title;
     return cell;
 }

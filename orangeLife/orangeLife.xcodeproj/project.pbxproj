@@ -40,6 +40,8 @@
 		0A4E358B1D5093CD00E195C4 /* HPNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E358A1D5093CD00E195C4 /* HPNews.m */; };
 		0A4E35901D50940E00E195C4 /* HPNewsDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E358E1D50940E00E195C4 /* HPNewsDetailVC.m */; };
 		0A4E35961D50990100E195C4 /* HPWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E35951D50990100E195C4 /* HPWebViewVC.m */; };
+		0AEB62471D51C55F00B38A29 /* HPNewsDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB62451D51C55F00B38A29 /* HPNewsDetailCell.m */; };
+		0AEB62481D51C55F00B38A29 /* HPNewsDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB62461D51C55F00B38A29 /* HPNewsDetailCell.xib */; };
 		0F7B1C56A9718E1BFA62BCF6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F4FB3B9460EDBFA614009D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +116,9 @@
 		0A4E358E1D50940E00E195C4 /* HPNewsDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsDetailVC.m; sourceTree = "<group>"; };
 		0A4E35941D50990100E195C4 /* HPWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWebViewVC.h; sourceTree = "<group>"; };
 		0A4E35951D50990100E195C4 /* HPWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWebViewVC.m; sourceTree = "<group>"; };
+		0AEB62441D51C55F00B38A29 /* HPNewsDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsDetailCell.h; sourceTree = "<group>"; };
+		0AEB62451D51C55F00B38A29 /* HPNewsDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsDetailCell.m; sourceTree = "<group>"; };
+		0AEB62461D51C55F00B38A29 /* HPNewsDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPNewsDetailCell.xib; sourceTree = "<group>"; };
 		18810DF49973A73CE918D0E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		93850DD3917DBBCCA06E5392 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A7F4FB3B9460EDBFA614009D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -322,6 +327,9 @@
 		0A4E358F1D50940E00E195C4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0AEB62441D51C55F00B38A29 /* HPNewsDetailCell.h */,
+				0AEB62451D51C55F00B38A29 /* HPNewsDetailCell.m */,
+				0AEB62461D51C55F00B38A29 /* HPNewsDetailCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -466,6 +474,7 @@
 				0A4815781D4C4BE100B35AA2 /* LaunchScreen.storyboard in Resources */,
 				0A4815751D4C4BE100B35AA2 /* Assets.xcassets in Resources */,
 				0A020CC31D4F408200458BA3 /* H5Service.bundle in Resources */,
+				0AEB62481D51C55F00B38A29 /* HPNewsDetailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +552,7 @@
 				0A4E35961D50990100E195C4 /* HPWebViewVC.m in Sources */,
 				0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.mm in Sources */,
 				0A020C981D4F190D00458BA3 /* HPFoodVC.m in Sources */,
+				0AEB62471D51C55F00B38A29 /* HPNewsDetailCell.m in Sources */,
 				0A4E358B1D5093CD00E195C4 /* HPNews.m in Sources */,
 				0A48156A1D4C4BE100B35AA2 /* main.m in Sources */,
 				0A4E35901D50940E00E195C4 /* HPNewsDetailVC.m in Sources */,
@@ -694,7 +704,7 @@
 				);
 				GCC_PREFIX_HEADER = "$SRCROOT/orangeLife/Prefix-Header.h";
 				INFOPLIST_FILE = orangeLife/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cago.orangeLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -715,7 +725,7 @@
 				);
 				GCC_PREFIX_HEADER = "$SRCROOT/orangeLife/Prefix-Header.h";
 				INFOPLIST_FILE = orangeLife/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cago.orangeLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
