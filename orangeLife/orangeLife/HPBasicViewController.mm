@@ -13,6 +13,7 @@
 #import "HPNewsVC.h"
 #import "HPFinanceVC.h"
 #import "HPGossipyVC.h"
+#import "HPNewsViewController.h"
 
 //引入芝麻信用
 #import <ZMCreditSDK/ALCreditService.h>
@@ -148,7 +149,7 @@ NSUInteger const basicTag = 100;
 -(void)setupChildVC
 {
     NSString *vcClass = @"vcClass";
-    NSArray *vcArray = @[  @{vcClass:[HPNewsVC class]},
+    NSArray *vcArray = @[  @{vcClass:[HPNewsViewController class]},
                            @{vcClass:[HPFoodVC class]},
                            @{vcClass:[HPFinanceVC class]},
                            @{vcClass:[HPGossipyVC class]}

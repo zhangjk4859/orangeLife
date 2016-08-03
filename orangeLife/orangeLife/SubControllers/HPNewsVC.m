@@ -71,9 +71,7 @@
           //NSString *errorMsg = responseObject[@"showapi_res_error"];
             [SVProgressHUD showErrorWithStatus:@"服务器异常，请稍后再试"];
         }
-        
-        
-        
+
     
     } failure:^(NSError *error) {
         
