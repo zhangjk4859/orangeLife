@@ -180,7 +180,7 @@
         button.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         button.accessibilityLabel = NSLocalizedString(@"Menu background", @"Menu background");
         button.accessibilityHint = NSLocalizedString(@"Double tap to close", @"Double tap to close");
-        [button addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
+        //[button addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
         button;
     });
     
