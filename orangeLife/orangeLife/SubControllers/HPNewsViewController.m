@@ -19,6 +19,9 @@
 #define sinaNewUrl @"http://news.sina.cn"
 #define tencenNewUrl @"http://info.3g.qq.com"
 #define wangyiNewUrl @"http://3g.163.com"
+#define souhuNewsUrl @"http://news.sohu.com/"
+#define toutiaoNewsUrl @"http://m.toutiao.com/"
+#define baiduSearchUrl @"http://m.baidu.com/"
 
 @implementation HPNewsViewController
 
@@ -73,8 +76,30 @@
                                                         action:^(REMenuItem *item) {
                                                             [weakSelf pushViewControllerWithUrl:wangyiNewUrl];
                                                         }];
+    REMenuItem *souhuItem = [[REMenuItem alloc] initWithTitle:@"搜狐新闻"
+                                                      subtitle:@"提供及时的新闻评论，原创爆料"
+                                                        image:nil
+                                              highlightedImage:nil
+                                                        action:^(REMenuItem *item) {
+                                                            [weakSelf pushViewControllerWithUrl:souhuNewsUrl];
+                                                        }];
+    REMenuItem *toutiaoItem = [[REMenuItem alloc] initWithTitle:@"今日头条"
+                                                     subtitle:@"你的关心，才是头条！"
+                                                        image:nil
+                                             highlightedImage:nil
+                                                       action:^(REMenuItem *item) {
+                                                           [weakSelf pushViewControllerWithUrl:toutiaoNewsUrl];
+                                                       }];
+    REMenuItem *baiduSearchItem = [[REMenuItem alloc] initWithTitle:@"百度搜索"
+                                                       subtitle:nil
+                                                          image:nil
+                                               highlightedImage:nil
+                                                         action:^(REMenuItem *item) {
+                                                             [weakSelf pushViewControllerWithUrl:baiduSearchUrl];
+                                                         }];
     
-    self.menu = [[REMenu alloc] initWithItems:@[fengItem, baiduItem, sinaItem, tencenItem, wangyiItem]];
+    
+    self.menu = [[REMenu alloc] initWithItems:@[fengItem, baiduItem, sinaItem, tencenItem, wangyiItem,souhuItem,toutiaoItem,baiduSearchItem]];
     self.menu.liveBlur = YES;
     self.menu.liveBlurBackgroundStyle = REMenuLiveBackgroundStyleDark;
     self.menu.textColor = [UIColor whiteColor];

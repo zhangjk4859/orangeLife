@@ -24,6 +24,8 @@
     
     [self setupWebView];
     
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithIcon:@"navigationbar_back" target:self action:@selector(Canccel)];
+    
     UIView *progress = [[UIView alloc]initWithFrame:CGRectMake(0, 64, CGRectGetWidth(self.view.frame), 3)];
     progress.backgroundColor = [UIColor clearColor];
     [self.view addSubview:progress];
@@ -80,5 +82,9 @@
     [self.webView removeObserver:self forKeyPath:@"estimatedProgress"];
 }
 
+- (void)Canccel
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 @end
