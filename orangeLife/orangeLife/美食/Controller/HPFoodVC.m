@@ -7,10 +7,25 @@
 //
 
 #import "HPFoodVC.h"
+#import "HPHomeModel.h"
+#import "HPWebViewVC.h"
+#import "HPFoodWebVC.h"
 
 @interface HPFoodVC ()<UITableViewDataSource,UITableViewDelegate>
 {
     UITableView *_tableView;
+    HPHomeModel *_homeModel;
+    NSMutableArray *_arrayData;
+    NSMutableArray *_dataArray;
+    UIPageControl *_pageController;
+    //EScrollerView *_scrollView;
+    NSArray *_albumArray;
+    NSArray *_recipeArray;
+    NSArray *_wikiArray;
+    NSArray *_tableArray;
+    NSArray *_rankArray;
+    NSArray *_tagArray;
+    NSMutableArray *_imgArray;
 }
 
 @end
@@ -28,9 +43,10 @@
     //3.设置导航栏不透明
     self.navigationController.navigationBar.translucent = NO;
     //4.设置表格视图
-    //[self setupTableView];
-    //5.网络加载数据
-    [self downloadData];
+    [self setupTableView];
+    //5.获取数据
+    [self loadData];
+    
     
     
 }
@@ -61,19 +77,23 @@
     _tableView.dataSource = self;
     _tableView.delegate = self;
 }
-//5.网络加载数据
--(void)downloadData
+//5.获取数据
+-(void)loadData
 {
-    NSString *urlString = @"http://api.hoto.cn/index.php?appid=4&appkey=573bbd2fbd1a6bac082ff4727d952ba3&channel=appstore&deviceid=0F607264FC6318A92B9E13C65DB7CD3C%7CD7CF225C-9050-4985-A7A5-8A55FB4BD6AD%7C9A779B15-FDD5-47BC-BE72-50F4918325CE&format=json&loguid=&method=Search.getHotSearch&sessionid=1422278993&uuid=17EF523E05B42597F70A95681590F28B&vc=31&vn=v4.5.0";
-    NSDictionary *parameters = @{@"sign":@"",@"uid":@"",@"uuid":@"17EF523E05B42597F70A95681590F28B"};
-    
-    [[HPHttpManager shareManager] getReqWithBaseUrlStr:urlString surfixUrlStr:nil params:parameters success:^(NSDictionary *responseObject) {
-        JKLog(@"%@",responseObject);
-    } failure:^(NSError *error) {
-        JKLog(@"%@",error);
+    //可以获取到数据了
+    _homeModel = [[HPHomeModel alloc] init];
+    [_homeModel refreshData:^(BOOL isSucess, NSMutableArray *dataDic) {
+        if (isSucess) {
+            _arrayData = [dataDic mutableCopy];
+            [_tableView reloadData];
+            
+        }
+        JKLog(@"_arrayData%@",_arrayData);
+        
     }];
-    
 }
+
+
 #pragma mark <UITableViewDataSource,UITableViewDelegate>
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -95,7 +115,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.section == 0) {
-        return 270;
+        return JKScreenH * 0.5;
     }
     else
         return 65;
@@ -107,11 +127,64 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     if (section == 0) {
-        return 250;
+        return JKScreenH * 0.5;
     }
     else
         return 45;
     
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    cell.textLabel.text = @"测试";
+    return cell;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell1 = [self tableView:_tableView cellForRowAtIndexPath:indexPath];
+    UITableViewCell *cell2 = [self tableView:_tableView cellForRowAtIndexPath:indexPath];
+    UITableViewCell *cell3 = [self tableView:_tableView cellForRowAtIndexPath:indexPath];
+    UITableViewCell *cell4 = [self tableView:_tableView cellForRowAtIndexPath:indexPath];
+    if (indexPath.section == 0) {
+        if (cell1.tag == 5 || cell1.tag == 6) {
+            HPFoodWebVC *webVC = [[HPFoodWebVC alloc] init];
+            webVC.index =cell1.tag;
+            [self.navigationController pushViewController:webVC animated:NO];
+        }
+        //开始创建  AlbumViewControllerVC,逐个创建
+//        else if (cell1.tag == 1000) {
+//            AlbumViewController *albumVC = [[AlbumViewController alloc] init];
+//            [self.navigationController pushViewController:albumVC animated:NO];
+//        }
+//        else if( cell3.tag == 1)
+//        {
+//            RecipeTableViewController *recipeVC = [[RecipeTableViewController alloc] init];
+//            recipeVC.index = cell3.tag;
+//            
+//            [self.navigationController pushViewController:recipeVC animated:NO];
+//        }else if(cell2.tag == 0 || cell2.tag == 2 || cell2.tag == 3 || cell2.tag == 4)    {
+//            RecipeTableViewController *recipeVC = [[RecipeTableViewController alloc] init];
+//            recipeVC.index = cell2.tag;
+//            [self.navigationController pushViewController:recipeVC animated:NO];
+//        }else if(indexPath.row == 7)
+//        {
+//            RecipeTableViewController *recipeVC = [[RecipeTableViewController alloc] init];
+//            recipeVC.index = indexPath.row - 2;
+//            
+//            [self.navigationController pushViewController:recipeVC animated:NO];
+//        }
+//        
+//    }
+//    else
+//    {
+//        RankDetailTableViewController *detailVC = [[RankDetailTableViewController alloc] init];
+//        detailVC.idStr = cell4.tag;
+//        [self.navigationController pushViewController:detailVC animated:NO];
+//        
+    }
 }
 
 @end
