@@ -12,7 +12,6 @@
 #import "HPConst.h"
 #import "UIView+HPExtension.h"
 #import "HPHttpManager.h"
-#import "HPNewsDetailVC.h"
 #import "HPUtils.h"
 #import "SVProgressHUD.h"
 #import "MJExtension.h"

@@ -9,3 +9,6 @@ CGFloat const tabBarBarHeight = 49;
 
 //标题栏高度
 CGFloat const titleViewHeight = 30;
+
+/**顶部常用高度*/
+CGFloat const normalHeight = statusBarHeight + navBarHeight;

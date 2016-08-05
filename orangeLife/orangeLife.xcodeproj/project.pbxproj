@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A020C971D4F190D00458BA3 /* HPFinanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C901D4F190D00458BA3 /* HPFinanceVC.m */; };
-		0A020C981D4F190D00458BA3 /* HPFoodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C921D4F190D00458BA3 /* HPFoodVC.m */; };
-		0A020C991D4F190D00458BA3 /* HPGossipyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C941D4F190D00458BA3 /* HPGossipyVC.m */; };
-		0A020C9A1D4F190D00458BA3 /* HPNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C961D4F190D00458BA3 /* HPNewsVC.m */; };
 		0A020CA01D4F2CEA00458BA3 /* HPHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A020C9F1D4F2CEA00458BA3 /* HPHttpManager.m */; };
 		0A020CA21D4F378600458BA3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CA11D4F378600458BA3 /* MobileCoreServices.framework */; };
 		0A020CA41D4F379600458BA3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A020CA31D4F379600458BA3 /* CFNetwork.framework */; };
@@ -33,16 +29,15 @@
 		0A4815781D4C4BE100B35AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4815761D4C4BE100B35AA2 /* LaunchScreen.storyboard */; };
 		0A4815831D4C4BE100B35AA2 /* orangeLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815821D4C4BE100B35AA2 /* orangeLifeTests.m */; };
 		0A48158E1D4C4BE100B35AA2 /* orangeLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48158D1D4C4BE100B35AA2 /* orangeLifeUITests.m */; };
-		0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.mm */; };
 		0A4815A11D4C538400B35AA2 /* HPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815A01D4C538400B35AA2 /* HPConst.m */; };
 		0A4815A51D4C544B00B35AA2 /* UIView+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4815A41D4C544B00B35AA2 /* UIView+HPExtension.m */; };
 		0A4E35871D506F8800E195C4 /* HPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E35861D506F8800E195C4 /* HPUtils.m */; };
-		0A4E358B1D5093CD00E195C4 /* HPNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E358A1D5093CD00E195C4 /* HPNews.m */; };
-		0A4E35901D50940E00E195C4 /* HPNewsDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E358E1D50940E00E195C4 /* HPNewsDetailVC.m */; };
-		0A4E35961D50990100E195C4 /* HPWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E35951D50990100E195C4 /* HPWebViewVC.m */; };
-		0AEB62471D51C55F00B38A29 /* HPNewsDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB62451D51C55F00B38A29 /* HPNewsDetailCell.m */; };
-		0AEB62481D51C55F00B38A29 /* HPNewsDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB62461D51C55F00B38A29 /* HPNewsDetailCell.xib */; };
-		0AEB624B1D51F4B500B38A29 /* HPNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB624A1D51F4B500B38A29 /* HPNewsViewController.m */; };
+		0AE0B7E01D5412220043900A /* HPTabBarVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B7DF1D5412220043900A /* HPTabBarVC.mm */; };
+		0AE0B7E81D54180E0043900A /* HPNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B7E71D54180E0043900A /* HPNewsVC.m */; };
+		0AE0B7EB1D541AD10043900A /* HPWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B7EA1D541AD10043900A /* HPWebViewVC.m */; };
+		0AE0B7F21D5429650043900A /* HPFoodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B7EF1D5429650043900A /* HPFoodVC.m */; };
+		0AE0B7F51D54298D0043900A /* HPHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B7F41D54298D0043900A /* HPHomeModel.m */; };
+		0AE0B7F81D542CAD0043900A /* HPHomeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B7F71D542CAD0043900A /* HPHomeInfo.m */; };
 		0AEB624F1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB624E1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m */; };
 		0F7B1C56A9718E1BFA62BCF6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F4FB3B9460EDBFA614009D /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -65,14 +60,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A020C8F1D4F190D00458BA3 /* HPFinanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFinanceVC.h; sourceTree = "<group>"; };
-		0A020C901D4F190D00458BA3 /* HPFinanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFinanceVC.m; sourceTree = "<group>"; };
-		0A020C911D4F190D00458BA3 /* HPFoodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFoodVC.h; sourceTree = "<group>"; };
-		0A020C921D4F190D00458BA3 /* HPFoodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFoodVC.m; sourceTree = "<group>"; };
-		0A020C931D4F190D00458BA3 /* HPGossipyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGossipyVC.h; sourceTree = "<group>"; };
-		0A020C941D4F190D00458BA3 /* HPGossipyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGossipyVC.m; sourceTree = "<group>"; };
-		0A020C951D4F190D00458BA3 /* HPNewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsVC.h; sourceTree = "<group>"; };
-		0A020C961D4F190D00458BA3 /* HPNewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsVC.m; sourceTree = "<group>"; };
 		0A020C9E1D4F2CEA00458BA3 /* HPHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPHttpManager.h; sourceTree = "<group>"; };
 		0A020C9F1D4F2CEA00458BA3 /* HPHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPHttpManager.m; sourceTree = "<group>"; };
 		0A020CA11D4F378600458BA3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -94,7 +81,7 @@
 		0A4815691D4C4BE100B35AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A48156B1D4C4BE100B35AA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A48156C1D4C4BE100B35AA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A4815741D4C4BE100B35AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A4815741D4C4BE100B35AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = orangeLife/Assets.xcassets; sourceTree = "<group>"; };
 		0A4815771D4C4BE100B35AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A4815791D4C4BE100B35AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A48157E1D4C4BE100B35AA2 /* orangeLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orangeLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,8 +90,6 @@
 		0A4815891D4C4BE100B35AA2 /* orangeLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orangeLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A48158D1D4C4BE100B35AA2 /* orangeLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = orangeLifeUITests.m; sourceTree = "<group>"; };
 		0A48158F1D4C4BE200B35AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A48159B1D4C4D9000B35AA2 /* HPBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPBasicViewController.h; sourceTree = "<group>"; };
-		0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HPBasicViewController.mm; sourceTree = "<group>"; };
 		0A48159F1D4C538400B35AA2 /* HPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPConst.h; sourceTree = "<group>"; };
 		0A4815A01D4C538400B35AA2 /* HPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPConst.m; sourceTree = "<group>"; };
 		0A4815A31D4C544B00B35AA2 /* UIView+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HPExtension.h"; sourceTree = "<group>"; };
@@ -112,17 +97,18 @@
 		0A4815A61D4C54D700B35AA2 /* Prefix-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prefix-Header.h"; sourceTree = "<group>"; };
 		0A4E35851D506F8800E195C4 /* HPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPUtils.h; sourceTree = "<group>"; };
 		0A4E35861D506F8800E195C4 /* HPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPUtils.m; sourceTree = "<group>"; };
-		0A4E35891D5093CD00E195C4 /* HPNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNews.h; sourceTree = "<group>"; };
-		0A4E358A1D5093CD00E195C4 /* HPNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNews.m; sourceTree = "<group>"; };
-		0A4E358D1D50940E00E195C4 /* HPNewsDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsDetailVC.h; sourceTree = "<group>"; };
-		0A4E358E1D50940E00E195C4 /* HPNewsDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsDetailVC.m; sourceTree = "<group>"; };
-		0A4E35941D50990100E195C4 /* HPWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWebViewVC.h; sourceTree = "<group>"; };
-		0A4E35951D50990100E195C4 /* HPWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWebViewVC.m; sourceTree = "<group>"; };
-		0AEB62441D51C55F00B38A29 /* HPNewsDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsDetailCell.h; sourceTree = "<group>"; };
-		0AEB62451D51C55F00B38A29 /* HPNewsDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsDetailCell.m; sourceTree = "<group>"; };
-		0AEB62461D51C55F00B38A29 /* HPNewsDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPNewsDetailCell.xib; sourceTree = "<group>"; };
-		0AEB62491D51F4B500B38A29 /* HPNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsViewController.h; sourceTree = "<group>"; };
-		0AEB624A1D51F4B500B38A29 /* HPNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsViewController.m; sourceTree = "<group>"; };
+		0AE0B7DE1D5412220043900A /* HPTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTabBarVC.h; sourceTree = "<group>"; };
+		0AE0B7DF1D5412220043900A /* HPTabBarVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HPTabBarVC.mm; sourceTree = "<group>"; };
+		0AE0B7E61D54180E0043900A /* HPNewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNewsVC.h; sourceTree = "<group>"; };
+		0AE0B7E71D54180E0043900A /* HPNewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNewsVC.m; sourceTree = "<group>"; };
+		0AE0B7E91D541AD10043900A /* HPWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWebViewVC.h; sourceTree = "<group>"; };
+		0AE0B7EA1D541AD10043900A /* HPWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWebViewVC.m; sourceTree = "<group>"; };
+		0AE0B7EE1D5429650043900A /* HPFoodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPFoodVC.h; sourceTree = "<group>"; };
+		0AE0B7EF1D5429650043900A /* HPFoodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFoodVC.m; sourceTree = "<group>"; };
+		0AE0B7F31D54298D0043900A /* HPHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPHomeModel.h; sourceTree = "<group>"; };
+		0AE0B7F41D54298D0043900A /* HPHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPHomeModel.m; sourceTree = "<group>"; };
+		0AE0B7F61D542CAD0043900A /* HPHomeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPHomeInfo.h; sourceTree = "<group>"; };
+		0AE0B7F71D542CAD0043900A /* HPHomeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPHomeInfo.m; sourceTree = "<group>"; };
 		0AEB624D1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HPExtension.h"; sourceTree = "<group>"; };
 		0AEB624E1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HPExtension.m"; sourceTree = "<group>"; };
 		18810DF49973A73CE918D0E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,28 +157,10 @@
 		0A020C8D1D4EF07A00458BA3 /* MainController */ = {
 			isa = PBXGroup;
 			children = (
-				0A48159B1D4C4D9000B35AA2 /* HPBasicViewController.h */,
-				0A48159C1D4C4D9000B35AA2 /* HPBasicViewController.mm */,
+				0AE0B7DE1D5412220043900A /* HPTabBarVC.h */,
+				0AE0B7DF1D5412220043900A /* HPTabBarVC.mm */,
 			);
 			name = MainController;
-			sourceTree = "<group>";
-		};
-		0A020C8E1D4F190D00458BA3 /* SubControllers */ = {
-			isa = PBXGroup;
-			children = (
-				0A4E35811D506ED700E195C4 /* DetailController */,
-				0A020C951D4F190D00458BA3 /* HPNewsVC.h */,
-				0A020C961D4F190D00458BA3 /* HPNewsVC.m */,
-				0AEB62491D51F4B500B38A29 /* HPNewsViewController.h */,
-				0AEB624A1D51F4B500B38A29 /* HPNewsViewController.m */,
-				0A020C8F1D4F190D00458BA3 /* HPFinanceVC.h */,
-				0A020C901D4F190D00458BA3 /* HPFinanceVC.m */,
-				0A020C911D4F190D00458BA3 /* HPFoodVC.h */,
-				0A020C921D4F190D00458BA3 /* HPFoodVC.m */,
-				0A020C931D4F190D00458BA3 /* HPGossipyVC.h */,
-				0A020C941D4F190D00458BA3 /* HPGossipyVC.m */,
-			);
-			path = SubControllers;
 			sourceTree = "<group>";
 		};
 		0A020C9D1D4F193800458BA3 /* Other */ = {
@@ -202,7 +170,6 @@
 				0A48156B1D4C4BE100B35AA2 /* AppDelegate.h */,
 				0A48156C1D4C4BE100B35AA2 /* AppDelegate.m */,
 				0A4815A61D4C54D700B35AA2 /* Prefix-Header.h */,
-				0A4815741D4C4BE100B35AA2 /* Assets.xcassets */,
 				0A4815761D4C4BE100B35AA2 /* LaunchScreen.storyboard */,
 				0A4815791D4C4BE100B35AA2 /* Info.plist */,
 			);
@@ -222,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				0A4815671D4C4BE100B35AA2 /* orangeLife */,
+				0A4815741D4C4BE100B35AA2 /* Assets.xcassets */,
 				0A4815811D4C4BE100B35AA2 /* orangeLifeTests */,
 				0A48158C1D4C4BE100B35AA2 /* orangeLifeUITests */,
 				0A4815661D4C4BE100B35AA2 /* Products */,
@@ -243,10 +211,11 @@
 		0A4815671D4C4BE100B35AA2 /* orangeLife */ = {
 			isa = PBXGroup;
 			children = (
+				0A020C8D1D4EF07A00458BA3 /* MainController */,
+				0AE0B7EC1D5429650043900A /* 美食 */,
+				0AE0B7E51D5414C10043900A /* 新闻 */,
 				0A020CB51D4F3AD800458BA3 /* Seasame */,
 				0A020C9D1D4F193800458BA3 /* Other */,
-				0A020C8E1D4F190D00458BA3 /* SubControllers */,
-				0A020C8D1D4EF07A00458BA3 /* MainController */,
 				0A4815A21D4C543400B35AA2 /* Category */,
 				0A48159E1D4C536400B35AA2 /* Tools */,
 				0A4815681D4C4BE100B35AA2 /* Supporting Files */,
@@ -304,44 +273,52 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		0A4E35811D506ED700E195C4 /* DetailController */ = {
+		0AE0B7E51D5414C10043900A /* 新闻 */ = {
 			isa = PBXGroup;
 			children = (
-				0A4E358C1D50940E00E195C4 /* Controllers */,
-				0A4E358F1D50940E00E195C4 /* Views */,
-				0A4E35881D5093BB00E195C4 /* Models */,
+				0AE0B7E61D54180E0043900A /* HPNewsVC.h */,
+				0AE0B7E71D54180E0043900A /* HPNewsVC.m */,
+				0AE0B7E91D541AD10043900A /* HPWebViewVC.h */,
+				0AE0B7EA1D541AD10043900A /* HPWebViewVC.m */,
 			);
-			path = DetailController;
+			path = "新闻";
 			sourceTree = "<group>";
 		};
-		0A4E35881D5093BB00E195C4 /* Models */ = {
+		0AE0B7EC1D5429650043900A /* 美食 */ = {
 			isa = PBXGroup;
 			children = (
-				0A4E35891D5093CD00E195C4 /* HPNews.h */,
-				0A4E358A1D5093CD00E195C4 /* HPNews.m */,
+				0AE0B7ED1D5429650043900A /* Controller */,
+				0AE0B7F01D5429650043900A /* Model */,
+				0AE0B7F11D5429650043900A /* View */,
 			);
-			path = Models;
+			path = "美食";
 			sourceTree = "<group>";
 		};
-		0A4E358C1D50940E00E195C4 /* Controllers */ = {
+		0AE0B7ED1D5429650043900A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0A4E358D1D50940E00E195C4 /* HPNewsDetailVC.h */,
-				0A4E358E1D50940E00E195C4 /* HPNewsDetailVC.m */,
-				0A4E35941D50990100E195C4 /* HPWebViewVC.h */,
-				0A4E35951D50990100E195C4 /* HPWebViewVC.m */,
+				0AE0B7EE1D5429650043900A /* HPFoodVC.h */,
+				0AE0B7EF1D5429650043900A /* HPFoodVC.m */,
 			);
-			path = Controllers;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		0A4E358F1D50940E00E195C4 /* Views */ = {
+		0AE0B7F01D5429650043900A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0AEB62441D51C55F00B38A29 /* HPNewsDetailCell.h */,
-				0AEB62451D51C55F00B38A29 /* HPNewsDetailCell.m */,
-				0AEB62461D51C55F00B38A29 /* HPNewsDetailCell.xib */,
+				0AE0B7F31D54298D0043900A /* HPHomeModel.h */,
+				0AE0B7F41D54298D0043900A /* HPHomeModel.m */,
+				0AE0B7F61D542CAD0043900A /* HPHomeInfo.h */,
+				0AE0B7F71D542CAD0043900A /* HPHomeInfo.m */,
 			);
-			path = Views;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AE0B7F11D5429650043900A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		1FAA91583AA7CBA3B2593E4C /* Pods */ = {
@@ -484,7 +461,6 @@
 				0A4815781D4C4BE100B35AA2 /* LaunchScreen.storyboard in Resources */,
 				0A4815751D4C4BE100B35AA2 /* Assets.xcassets in Resources */,
 				0A020CC31D4F408200458BA3 /* H5Service.bundle in Resources */,
-				0AEB62481D51C55F00B38A29 /* HPNewsDetailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,23 +533,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE0B7E81D54180E0043900A /* HPNewsVC.m in Sources */,
 				0A4815A51D4C544B00B35AA2 /* UIView+HPExtension.m in Sources */,
+				0AE0B7EB1D541AD10043900A /* HPWebViewVC.m in Sources */,
 				0A48156D1D4C4BE100B35AA2 /* AppDelegate.m in Sources */,
 				0AEB624F1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m in Sources */,
-				0A4E35961D50990100E195C4 /* HPWebViewVC.m in Sources */,
-				0A48159D1D4C4D9000B35AA2 /* HPBasicViewController.mm in Sources */,
-				0A020C981D4F190D00458BA3 /* HPFoodVC.m in Sources */,
-				0AEB624B1D51F4B500B38A29 /* HPNewsViewController.m in Sources */,
-				0AEB62471D51C55F00B38A29 /* HPNewsDetailCell.m in Sources */,
-				0A4E358B1D5093CD00E195C4 /* HPNews.m in Sources */,
 				0A48156A1D4C4BE100B35AA2 /* main.m in Sources */,
-				0A4E35901D50940E00E195C4 /* HPNewsDetailVC.m in Sources */,
+				0AE0B7F81D542CAD0043900A /* HPHomeInfo.m in Sources */,
+				0AE0B7F21D5429650043900A /* HPFoodVC.m in Sources */,
 				0A2336981D503C4800E5833B /* Foundation+Log.m in Sources */,
 				0A4815A11D4C538400B35AA2 /* HPConst.m in Sources */,
 				0A4E35871D506F8800E195C4 /* HPUtils.m in Sources */,
-				0A020C971D4F190D00458BA3 /* HPFinanceVC.m in Sources */,
-				0A020C991D4F190D00458BA3 /* HPGossipyVC.m in Sources */,
-				0A020C9A1D4F190D00458BA3 /* HPNewsVC.m in Sources */,
+				0AE0B7F51D54298D0043900A /* HPHomeModel.m in Sources */,
+				0AE0B7E01D5412220043900A /* HPTabBarVC.mm in Sources */,
 				0A020CA01D4F2CEA00458BA3 /* HPHttpManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

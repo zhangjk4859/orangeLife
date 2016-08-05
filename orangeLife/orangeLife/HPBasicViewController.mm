@@ -10,7 +10,6 @@
 
 //引入四个子控制器
 #import "HPFoodVC.h"
-#import "HPNewsVC.h"
 #import "HPFinanceVC.h"
 #import "HPGossipyVC.h"
 #import "HPNewsViewController.h"

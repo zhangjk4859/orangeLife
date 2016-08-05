@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HPBasicViewController.h"
+#import "HPTabBarVC.h"
 
 @interface AppDelegate ()
 
@@ -24,10 +25,8 @@
     
     //2.创建根控制器
     //2.1创建视图
-    HPBasicViewController *basicVC = [[HPBasicViewController alloc] init];
-    //2.2创建导航控制器
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:basicVC];
-    self.window.rootViewController = nav;
+    HPTabBarVC *tabBarVC = [[HPTabBarVC alloc] init];
+    self.window.rootViewController = tabBarVC;
     
     
     return YES;
