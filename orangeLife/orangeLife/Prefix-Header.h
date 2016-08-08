@@ -16,6 +16,8 @@
 #import "SVProgressHUD.h"
 #import "MJExtension.h"
 #import "UIBarButtonItem+HPExtension.h"
+#import "UIImageView+WebCache.h"
+
 
 
 //调试状态打印日志

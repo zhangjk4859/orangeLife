@@ -43,6 +43,13 @@
 		0AE47C1F1D5858EC00DA00A3 /* HPAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C1E1D5858EC00DA00A3 /* HPAlbumVC.m */; };
 		0AE47C221D58595D00DA00A3 /* HPRecipeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C211D58595D00DA00A3 /* HPRecipeTableVC.m */; };
 		0AE47C251D585ABC00DA00A3 /* HPTRankableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C241D585ABC00DA00A3 /* HPTRankableVC.m */; };
+		0AE47C281D5861E400DA00A3 /* HPTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C271D5861E400DA00A3 /* HPTagButton.m */; };
+		0AE47C2B1D58636500DA00A3 /* HPRankButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C2A1D58636500DA00A3 /* HPRankButton.m */; };
+		0AE47C2E1D5863FE00DA00A3 /* HPRankMoreTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C2D1D5863FE00DA00A3 /* HPRankMoreTableVC.m */; };
+		0AE47C311D58671C00DA00A3 /* HPImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C301D58671C00DA00A3 /* HPImageCell.m */; };
+		0AE47C341D58674C00DA00A3 /* HPOneLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C331D58674C00DA00A3 /* HPOneLabelCell.m */; };
+		0AE47C371D58678200DA00A3 /* HPTwoLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C361D58678200DA00A3 /* HPTwoLabelCell.m */; };
+		0AE47C3A1D58720E00DA00A3 /* HPRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C391D58720E00DA00A3 /* HPRankCell.m */; };
 		0AEB624F1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB624E1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m */; };
 		0F7B1C56A9718E1BFA62BCF6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F4FB3B9460EDBFA614009D /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -124,6 +131,20 @@
 		0AE47C211D58595D00DA00A3 /* HPRecipeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPRecipeTableVC.m; sourceTree = "<group>"; };
 		0AE47C231D585ABC00DA00A3 /* HPTRankableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTRankableVC.h; sourceTree = "<group>"; };
 		0AE47C241D585ABC00DA00A3 /* HPTRankableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTRankableVC.m; sourceTree = "<group>"; };
+		0AE47C261D5861E400DA00A3 /* HPTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTagButton.h; sourceTree = "<group>"; };
+		0AE47C271D5861E400DA00A3 /* HPTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTagButton.m; sourceTree = "<group>"; };
+		0AE47C291D58636500DA00A3 /* HPRankButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPRankButton.h; sourceTree = "<group>"; };
+		0AE47C2A1D58636500DA00A3 /* HPRankButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPRankButton.m; sourceTree = "<group>"; };
+		0AE47C2C1D5863FE00DA00A3 /* HPRankMoreTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPRankMoreTableVC.h; sourceTree = "<group>"; };
+		0AE47C2D1D5863FE00DA00A3 /* HPRankMoreTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPRankMoreTableVC.m; sourceTree = "<group>"; };
+		0AE47C2F1D58671C00DA00A3 /* HPImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageCell.h; sourceTree = "<group>"; };
+		0AE47C301D58671C00DA00A3 /* HPImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPImageCell.m; sourceTree = "<group>"; };
+		0AE47C321D58674C00DA00A3 /* HPOneLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPOneLabelCell.h; sourceTree = "<group>"; };
+		0AE47C331D58674C00DA00A3 /* HPOneLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPOneLabelCell.m; sourceTree = "<group>"; };
+		0AE47C351D58678200DA00A3 /* HPTwoLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTwoLabelCell.h; sourceTree = "<group>"; };
+		0AE47C361D58678200DA00A3 /* HPTwoLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTwoLabelCell.m; sourceTree = "<group>"; };
+		0AE47C381D58720E00DA00A3 /* HPRankCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPRankCell.h; sourceTree = "<group>"; };
+		0AE47C391D58720E00DA00A3 /* HPRankCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPRankCell.m; sourceTree = "<group>"; };
 		0AEB624D1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HPExtension.h"; sourceTree = "<group>"; };
 		0AEB624E1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HPExtension.m"; sourceTree = "<group>"; };
 		18810DF49973A73CE918D0E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -324,6 +345,8 @@
 				0AE47C211D58595D00DA00A3 /* HPRecipeTableVC.m */,
 				0AE47C231D585ABC00DA00A3 /* HPTRankableVC.h */,
 				0AE47C241D585ABC00DA00A3 /* HPTRankableVC.m */,
+				0AE47C2C1D5863FE00DA00A3 /* HPRankMoreTableVC.h */,
+				0AE47C2D1D5863FE00DA00A3 /* HPRankMoreTableVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -342,6 +365,18 @@
 		0AE0B7F11D5429650043900A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0AE47C261D5861E400DA00A3 /* HPTagButton.h */,
+				0AE47C271D5861E400DA00A3 /* HPTagButton.m */,
+				0AE47C291D58636500DA00A3 /* HPRankButton.h */,
+				0AE47C2A1D58636500DA00A3 /* HPRankButton.m */,
+				0AE47C2F1D58671C00DA00A3 /* HPImageCell.h */,
+				0AE47C301D58671C00DA00A3 /* HPImageCell.m */,
+				0AE47C321D58674C00DA00A3 /* HPOneLabelCell.h */,
+				0AE47C331D58674C00DA00A3 /* HPOneLabelCell.m */,
+				0AE47C351D58678200DA00A3 /* HPTwoLabelCell.h */,
+				0AE47C361D58678200DA00A3 /* HPTwoLabelCell.m */,
+				0AE47C381D58720E00DA00A3 /* HPRankCell.h */,
+				0AE47C391D58720E00DA00A3 /* HPRankCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -560,10 +595,15 @@
 			files = (
 				0AE0B7E81D54180E0043900A /* HPNewsVC.m in Sources */,
 				0AE47C221D58595D00DA00A3 /* HPRecipeTableVC.m in Sources */,
+				0AE47C2E1D5863FE00DA00A3 /* HPRankMoreTableVC.m in Sources */,
+				0AE47C3A1D58720E00DA00A3 /* HPRankCell.m in Sources */,
 				0AE0B8081D54B62C0043900A /* HPFoodWebVC.m in Sources */,
 				0A4815A51D4C544B00B35AA2 /* UIView+HPExtension.m in Sources */,
+				0AE47C281D5861E400DA00A3 /* HPTagButton.m in Sources */,
+				0AE47C311D58671C00DA00A3 /* HPImageCell.m in Sources */,
 				0AE0B7EB1D541AD10043900A /* HPWebViewVC.m in Sources */,
 				0A48156D1D4C4BE100B35AA2 /* AppDelegate.m in Sources */,
+				0AE47C2B1D58636500DA00A3 /* HPRankButton.m in Sources */,
 				0AE47C1F1D5858EC00DA00A3 /* HPAlbumVC.m in Sources */,
 				0AEB624F1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m in Sources */,
 				0A48156A1D4C4BE100B35AA2 /* main.m in Sources */,
@@ -575,6 +615,8 @@
 				0A4E35871D506F8800E195C4 /* HPUtils.m in Sources */,
 				0AE0B80B1D54B8FE0043900A /* HPCommentVC.m in Sources */,
 				0AE0B7F51D54298D0043900A /* HPHomeModel.m in Sources */,
+				0AE47C371D58678200DA00A3 /* HPTwoLabelCell.m in Sources */,
+				0AE47C341D58674C00DA00A3 /* HPOneLabelCell.m in Sources */,
 				0AE0B7E01D5412220043900A /* HPTabBarVC.mm in Sources */,
 				0A020CA01D4F2CEA00458BA3 /* HPHttpManager.m in Sources */,
 			);
