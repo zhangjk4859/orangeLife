@@ -10,6 +10,9 @@
 #import "HPHomeModel.h"
 #import "HPWebViewVC.h"
 #import "HPFoodWebVC.h"
+#import "HPAlbumVC.h"
+#import "HPRecipeTableVC.h"
+#import "HPTRankableVC.h"
 
 @interface HPFoodVC ()<UITableViewDataSource,UITableViewDelegate>
 {
@@ -149,41 +152,43 @@
     UITableViewCell *cell3 = [self tableView:_tableView cellForRowAtIndexPath:indexPath];
     UITableViewCell *cell4 = [self tableView:_tableView cellForRowAtIndexPath:indexPath];
     if (indexPath.section == 0) {
-        if (cell1.tag == 5 || cell1.tag == 6) {
-            HPFoodWebVC *webVC = [[HPFoodWebVC alloc] init];
-            webVC.index =cell1.tag;
-            [self.navigationController pushViewController:webVC animated:NO];
-        }
-        //开始创建  AlbumViewControllerVC,逐个创建
-//        else if (cell1.tag == 1000) {
-//            AlbumViewController *albumVC = [[AlbumViewController alloc] init];
-//            [self.navigationController pushViewController:albumVC animated:NO];
-//        }
-//        else if( cell3.tag == 1)
-//        {
-//            RecipeTableViewController *recipeVC = [[RecipeTableViewController alloc] init];
-//            recipeVC.index = cell3.tag;
-//            
-//            [self.navigationController pushViewController:recipeVC animated:NO];
-//        }else if(cell2.tag == 0 || cell2.tag == 2 || cell2.tag == 3 || cell2.tag == 4)    {
-//            RecipeTableViewController *recipeVC = [[RecipeTableViewController alloc] init];
-//            recipeVC.index = cell2.tag;
-//            [self.navigationController pushViewController:recipeVC animated:NO];
-//        }else if(indexPath.row == 7)
-//        {
-//            RecipeTableViewController *recipeVC = [[RecipeTableViewController alloc] init];
-//            recipeVC.index = indexPath.row - 2;
-//            
-//            [self.navigationController pushViewController:recipeVC animated:NO];
-//        }
-//        
-//    }
-//    else
-//    {
-//        RankDetailTableViewController *detailVC = [[RankDetailTableViewController alloc] init];
-//        detailVC.idStr = cell4.tag;
-//        [self.navigationController pushViewController:detailVC animated:NO];
-//        
+            if (cell1.tag == 5 || cell1.tag == 6) {
+                HPFoodWebVC *webVC = [[HPFoodWebVC alloc] init];
+                webVC.index =cell1.tag;
+                [self.navigationController pushViewController:webVC animated:NO];
+            }
+            //开始创建  AlbumViewControllerVC,逐个创建
+            else if (cell1.tag == 1000)
+            {
+                HPAlbumVC *albumVC = [[HPAlbumVC alloc] init];
+                [self.navigationController pushViewController:albumVC animated:NO];
+            }
+            else if( cell3.tag == 1)
+            {
+                HPRecipeTableVC *recipeVC = [[HPRecipeTableVC alloc] init];
+                recipeVC.index = cell3.tag;
+                [self.navigationController pushViewController:recipeVC animated:NO];
+            }
+            else if(cell2.tag == 0 || cell2.tag == 2 || cell2.tag == 3 || cell2.tag == 4)
+            {
+                HPRecipeTableVC *recipeVC = [[HPRecipeTableVC alloc] init];
+                recipeVC.index = cell2.tag;
+                [self.navigationController pushViewController:recipeVC animated:NO];
+            }
+            else if(indexPath.row == 7)
+            {
+                HPRecipeTableVC *recipeVC = [[HPRecipeTableVC alloc] init];
+                recipeVC.index = indexPath.row - 2;
+                [self.navigationController pushViewController:recipeVC animated:NO];
+            }
+
+    }
+    else
+    {
+        HPTRankableVC *detailVC = [[HPTRankableVC alloc] init];
+        detailVC.idStr = cell4.tag;
+        [self.navigationController pushViewController:detailVC animated:NO];
+        
     }
 }
 

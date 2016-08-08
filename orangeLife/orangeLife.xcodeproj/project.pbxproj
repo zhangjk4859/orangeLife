@@ -40,6 +40,9 @@
 		0AE0B7F81D542CAD0043900A /* HPHomeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B7F71D542CAD0043900A /* HPHomeInfo.m */; };
 		0AE0B8081D54B62C0043900A /* HPFoodWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B8071D54B62C0043900A /* HPFoodWebVC.m */; };
 		0AE0B80B1D54B8FE0043900A /* HPCommentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0B80A1D54B8FE0043900A /* HPCommentVC.m */; };
+		0AE47C1F1D5858EC00DA00A3 /* HPAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C1E1D5858EC00DA00A3 /* HPAlbumVC.m */; };
+		0AE47C221D58595D00DA00A3 /* HPRecipeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C211D58595D00DA00A3 /* HPRecipeTableVC.m */; };
+		0AE47C251D585ABC00DA00A3 /* HPTRankableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE47C241D585ABC00DA00A3 /* HPTRankableVC.m */; };
 		0AEB624F1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB624E1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m */; };
 		0F7B1C56A9718E1BFA62BCF6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F4FB3B9460EDBFA614009D /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -115,6 +118,12 @@
 		0AE0B8071D54B62C0043900A /* HPFoodWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPFoodWebVC.m; sourceTree = "<group>"; };
 		0AE0B8091D54B8FE0043900A /* HPCommentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCommentVC.h; sourceTree = "<group>"; };
 		0AE0B80A1D54B8FE0043900A /* HPCommentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCommentVC.m; sourceTree = "<group>"; };
+		0AE47C1D1D5858EC00DA00A3 /* HPAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPAlbumVC.h; sourceTree = "<group>"; };
+		0AE47C1E1D5858EC00DA00A3 /* HPAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPAlbumVC.m; sourceTree = "<group>"; };
+		0AE47C201D58595D00DA00A3 /* HPRecipeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPRecipeTableVC.h; sourceTree = "<group>"; };
+		0AE47C211D58595D00DA00A3 /* HPRecipeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPRecipeTableVC.m; sourceTree = "<group>"; };
+		0AE47C231D585ABC00DA00A3 /* HPTRankableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTRankableVC.h; sourceTree = "<group>"; };
+		0AE47C241D585ABC00DA00A3 /* HPTRankableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTRankableVC.m; sourceTree = "<group>"; };
 		0AEB624D1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HPExtension.h"; sourceTree = "<group>"; };
 		0AEB624E1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HPExtension.m"; sourceTree = "<group>"; };
 		18810DF49973A73CE918D0E0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -309,6 +318,12 @@
 				0AE0B8071D54B62C0043900A /* HPFoodWebVC.m */,
 				0AE0B8091D54B8FE0043900A /* HPCommentVC.h */,
 				0AE0B80A1D54B8FE0043900A /* HPCommentVC.m */,
+				0AE47C1D1D5858EC00DA00A3 /* HPAlbumVC.h */,
+				0AE47C1E1D5858EC00DA00A3 /* HPAlbumVC.m */,
+				0AE47C201D58595D00DA00A3 /* HPRecipeTableVC.h */,
+				0AE47C211D58595D00DA00A3 /* HPRecipeTableVC.m */,
+				0AE47C231D585ABC00DA00A3 /* HPTRankableVC.h */,
+				0AE47C241D585ABC00DA00A3 /* HPTRankableVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -544,15 +559,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE0B7E81D54180E0043900A /* HPNewsVC.m in Sources */,
+				0AE47C221D58595D00DA00A3 /* HPRecipeTableVC.m in Sources */,
 				0AE0B8081D54B62C0043900A /* HPFoodWebVC.m in Sources */,
 				0A4815A51D4C544B00B35AA2 /* UIView+HPExtension.m in Sources */,
 				0AE0B7EB1D541AD10043900A /* HPWebViewVC.m in Sources */,
 				0A48156D1D4C4BE100B35AA2 /* AppDelegate.m in Sources */,
+				0AE47C1F1D5858EC00DA00A3 /* HPAlbumVC.m in Sources */,
 				0AEB624F1D51F60A00B38A29 /* UIBarButtonItem+HPExtension.m in Sources */,
 				0A48156A1D4C4BE100B35AA2 /* main.m in Sources */,
 				0AE0B7F81D542CAD0043900A /* HPHomeInfo.m in Sources */,
 				0AE0B7F21D5429650043900A /* HPFoodVC.m in Sources */,
 				0A2336981D503C4800E5833B /* Foundation+Log.m in Sources */,
+				0AE47C251D585ABC00DA00A3 /* HPTRankableVC.m in Sources */,
 				0A4815A11D4C538400B35AA2 /* HPConst.m in Sources */,
 				0A4E35871D506F8800E195C4 /* HPUtils.m in Sources */,
 				0AE0B80B1D54B8FE0043900A /* HPCommentVC.m in Sources */,
