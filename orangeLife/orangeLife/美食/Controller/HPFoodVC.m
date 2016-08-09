@@ -22,6 +22,7 @@
 #import "HPRankCell.h"
 
 
+
 @interface HPFoodVC ()<UITableViewDataSource,UITableViewDelegate>
 {
     UITableView *_tableView;
@@ -454,8 +455,8 @@
                 HPHomeInfo *info = [[HPHomeInfo alloc] init];
                 info = _recipeArray[5];
                 //                if (info.icon.length != 0) {
-                [cell3.coverView  setImageWithURL:[NSURL URLWithString:info.cover] placeholderImage:nil];
-                [cell3.iconImgView setImageWithURL:[NSURL URLWithString:info.icon] placeholderImage:nil];
+                [cell3.coverView  sd_setImageWithURL:[NSURL URLWithString:info.cover] placeholderImage:nil];
+                [cell3.iconImgView sd_setImageWithURL:[NSURL URLWithString:info.icon] placeholderImage:nil];
                 cell3.rTitleLabel.text = info.rTitle;
                 cell3.introLabel.text = info.intro;
                 cell3.titleLabel.text = info.title;

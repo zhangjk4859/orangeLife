@@ -17,8 +17,7 @@
 #import "MJExtension.h"
 #import "UIBarButtonItem+HPExtension.h"
 #import "UIImageView+WebCache.h"
-
-
+#import "MJRefresh.h"
 
 //调试状态打印日志
 #ifdef DEBUG
