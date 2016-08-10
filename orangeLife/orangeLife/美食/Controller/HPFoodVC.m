@@ -174,6 +174,7 @@
             }
             else if( cell3.tag == 1)
             {
+#warning 开始完善这个控制器
                 HPRecipeTableVC *recipeVC = [[HPRecipeTableVC alloc] init];
                 recipeVC.index = cell3.tag;
                 [self.navigationController pushViewController:recipeVC animated:NO];
